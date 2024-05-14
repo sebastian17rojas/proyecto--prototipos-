@@ -1,12 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
-    height: auto;
+    width: 100%; 
+    background-color: #fff;
+    position: fixed;
+    margin-top: 0%;
 }
-#icon-sup{
-    background-image: url(/IMG/trip-coin2-2.png);
+#img_sup{
+    background-image: url(/IMG/trip-coin\ azul.png);
     background-size: cover;
-    width:100% ;
-    height: 300px;
-
+    width: 500px;
+    height: 100px;
 }
-    
-
+#principal_container{
+    /* background-color: aquamarine; */
+    background-image: url(/IMG/razones-invertir-cartagena-colombia.webp);
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+#container_text{
+    width: 200px;
+    height: 200px;
+}
