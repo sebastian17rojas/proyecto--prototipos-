@@ -1,4 +1,4 @@
-este proyecto e basara en turismo y basado en el pago con criptomoneda utilizando las wallets
+Este proyecto se basara en turismo y basado en el pago con criptomoneda utilizando las wallets
 
 para que?
 
