@@ -25,3 +25,61 @@ header{
     width: 200px;
     height: 200px;
 }
+
+
+#header_nav {
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide {
+    max-height: 0 !important;
+}
+
+.dropdown{
+	border: 0.1em solid black;
+	width: 5em;
+    height: 3em;
+	margin-bottom: 0em;
+    z-index: 5;
+    margin-right: 1%;
+}
+
+.dropdown .title{
+	margin: .3em .3em .3em .3em;	
+	width: 100%;
+}
+
+.dropdown .title .fa-angle-right{
+	float: right;
+	margin-right: .7em;
+	transition: transform .3s;
+}
+
+.dropdown .menu{
+	transition: max-height .5s ease-out;
+	max-height: 20em;
+	overflow: hidden;
+    background-color: #fff;
+}
+
+.dropdown .menu .option{
+	margin: .3em .3em .3em .3em;
+	margin-top: 0.3em;
+}
+
+.dropdown .menu .option:hover{
+	background: rgba(0,0,0,0.2);
+}
+
+.pointerCursor:hover{
+	cursor: pointer;
+    background-color: white;
+}
+
+.rotate-90{
+	transform: rotate(90deg);
+}
