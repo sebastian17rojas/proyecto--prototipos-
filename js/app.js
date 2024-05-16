@@ -90,17 +90,6 @@ function toggleClass(elem,className){
   document.querySelector('.dropdown .title').addEventListener('change',handleTitleChange);
   `
 
-  function boton_login() {
-    window.open("../html/login.html");
-  }
-
-  function boton_ofertas() {
-    window.open("../html/ofertas.html");
-  }
-
-  function boton_ofertas() {
-    window.open("../html/ofertas.html");
-  }
 
 
   document.getElementById("nav_bar").innerHTML = `
@@ -118,7 +107,7 @@ function toggleClass(elem,className){
               <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
               <li><a href="page.html">Métodos de pago</a></li>
               <li><a href="help.html">Ayuda</a></li>
-              <button onclick="boton_login()" id="z">login</button>
+              <a href="../html/login.html"><button id="z">login</button></a>
           
           </ul>
       </div>
