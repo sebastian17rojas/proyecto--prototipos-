@@ -129,6 +129,11 @@ header{
     max-width: 100%; 
 }
 
+h3{
+    font-size: smaller;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2c4df2;
+}
 footer {
     background-color: #2c4df2 ; 
     display: flex;
