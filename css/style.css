@@ -54,6 +54,7 @@ header{
     border: none;
     font-style: italic;
     margin-right: 5px;
+    cursor: pointer;
     
 }
 
@@ -97,7 +98,10 @@ header{
     color: #2c4df2; 
     align-self: flex-end; 
     margin-top: 10px;
-    border: none; 
+    border: none;
+    cursor: pointer;
+
+    
 
 }
 
