@@ -90,6 +90,11 @@ function toggleClass(elem,className){
   document.querySelector('.dropdown .title').addEventListener('change',handleTitleChange);
   `
 
+  function boton_login() {
+    window.open("../html/login.html");
+  }
+
+
   document.getElementById("nav_bar").innerHTML = `
   <div class="logo">
       <a href="../html/index.html">
@@ -105,7 +110,7 @@ function toggleClass(elem,className){
               <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
               <li><a href="page.html">Métodos de pago</a></li>
               <li><a href="help.html">Ayuda</a></li>
-              <button class="z">Login</button>
+              <button onclick="boton_login()" id="z">login</button>
           
           </ul>
       </div>
