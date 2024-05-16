@@ -94,6 +94,14 @@ function toggleClass(elem,className){
     window.open("../html/login.html");
   }
 
+  function boton_ofertas() {
+    window.open("../html/ofertas.html");
+  }
+
+  function boton_ofertas() {
+    window.open("../html/ofertas.html");
+  }
+
 
   document.getElementById("nav_bar").innerHTML = `
   <div class="logo">
