@@ -1,7 +1,7 @@
 //This function takes two arguments: elem (an HTML element) and className (a text string representing a CSS class).
 //If elem already has the class className, it removes it. If it does not, it adds it.
 //Then, it returns the modified element.
-
+`
 function toggleClass(elem,className){
     if (elem.className.indexOf(className) !== -1){
       elem.className = elem.className.replace(className,'');
@@ -88,3 +88,26 @@ function toggleClass(elem,className){
   dropdownOptions.forEach(option => option.addEventListener('click',handleOptionSelected));
   
   document.querySelector('.dropdown .title').addEventListener('change',handleTitleChange);
+  `
+
+  document.getElementById("nav_bar").innerHTML = `
+  <div class="logo">
+      <a href="../html/index.html">
+      <img src="/IMG/trip-coin azul.png" alt="Logo">
+      </a>
+  </div>
+  <nav id="header_nav">
+       <!--<div class='title pointerCursor'>Select an option <i class="fa fa-angle-right"></i></div>
+      <div class='menu pointerCursor hide'>-->
+          <ul>
+              <li><a href="vuelos.html">Vuelos</a></li>
+              <li><a href="ofertas.html">Ofertas</a></li>
+              <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
+              <li><a href="page.html">Métodos de pago</a></li>
+              <li><a href="help.html">Ayuda</a></li>
+              <button class="z">Login</button>
+          
+          </ul>
+      </div>
+  </nav>
+`
