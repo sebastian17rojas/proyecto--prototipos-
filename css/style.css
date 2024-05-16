@@ -45,7 +45,7 @@ header{
     color: #2c4df2;
 }
 
-.z {
+#z {
     background-color: blue; 
     color: white; 
     border-radius: 10px;
@@ -150,7 +150,7 @@ footer {
     justify-content: flex-end;
     align-items: center;
 }
-
+/*
 .hide {
     max-height: 0 !important;
 }
@@ -199,3 +199,4 @@ footer {
 .rotate-90{
 	transform: rotate(90deg);
 }
+*/
