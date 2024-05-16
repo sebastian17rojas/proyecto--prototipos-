@@ -1,6 +1,21 @@
-Este proyecto se basara en turismo y basado en el pago con criptomoneda utilizando las wallets
+--------TRIP COIN--------
+Somos el grupo sombr4 conformado por 4 estudiantes de desarrollo, con la idea de crear Trip coin.
+TripCoin es una plataforma de búsqueda de vuelos que permite a los usuarios encontrar opciones disponibles en su área y comparar precios y servicios, además tenemos una amplia pasarela de pagos que incluye las criptomonedas. 
 
-para que?
+Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidiana y muy pocas cosas se pueden pagar realizar pagos con criptos, principalmente queremos lograr procesar los pagos de vuelos con criptomoneda y poder agilizar ese proyecto con seguridad para dar una experiencia optima al usuario.
 
-el mercado de criptomonedas aun esta muy excluido de la vida cotidiana y muy pocas cosas se pueden pagar aun con cripto monedas, 
-la idea principalmente es poder pagar vuelos con criptomoneda y poder agilizar ese proyecto con seguridad para dar una experiencia optima al usuario 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
