@@ -1,7 +1,7 @@
+`
 //This function takes two arguments: elem (an HTML element) and className (a text string representing a CSS class).
 //If elem already has the class className, it removes it. If it does not, it adds it.
 //Then, it returns the modified element.
-`
 function toggleClass(elem,className){
     if (elem.className.indexOf(className) !== -1){
       elem.className = elem.className.replace(className,'');
@@ -91,7 +91,7 @@ function toggleClass(elem,className){
   `
 
 
-
+``
   document.getElementById("nav_bar").innerHTML = `
   <div class="logo">
       <a href="../html/index.html">
