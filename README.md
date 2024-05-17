@@ -1,10 +1,10 @@
 <h1>--------TRIP COIN--------</h1>
 <img src="/IMG/trip-coin azul.png">
 
-<!-- <p>Somos el grupo sombr4 conformado por 4 estudiantes de desarrollo, con la idea de crear Trip coin.
-TripCoin es una plataforma de búsqueda de vuelos que permite a los usuarios encontrar opciones disponibles en su área y comparar precios y servicios, además tenemos una amplia pasarela de pagos que incluye las criptomonedas.</p> 
+ Somos el grupo sombr4 conformado por 4 estudiantes de desarrollo, con la idea de crear Trip coin.
+TripCoin es una plataforma de búsqueda de vuelos que permite a los usuarios encontrar opciones disponibles en su área y comparar precios y servicios, además tenemos una amplia pasarela de pagos que incluye las criptomonedas. 
 
-<p>Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidiana y muy pocas cosas se pueden pagar realizar pagos con cripto monedas, principalmente queremos lograr procesar los pagos de vuelos con criptomoneda y poder agilizar ese proyecto con seguridad para dar una experiencia optima al usuario.</p>
+<!-- <p>Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidiana y muy pocas cosas se pueden pagar realizar pagos con cripto monedas, principalmente queremos lograr procesar los pagos de vuelos con criptomoneda y poder agilizar ese proyecto con seguridad para dar una experiencia optima al usuario.</p>
 
 <h1>OBJETIVO GENERAL</h1>
 <p> Desarrollar una herramienta integral para la búsqueda de viajes y dar una mayor facilidad a la hora de hacer transacciones con diferentes tipos de criptos, ofreciendo diferentes alternativas de pago.</p>
@@ -26,7 +26,7 @@ TripCoin es una plataforma de búsqueda de vuelos que permite a los usuarios enc
 <h3>4.Marketing digital</h3>
 <p>Invierte en publicidad en redes sociales y Google Ads para aumentar la visibilidad de tu plataforma.</p>
 <p>Considera colaboraciones con influencers o bloggers de viajes para promocionar tu servicio.</p>
-<h3>5.Pruebas rigurosas</h3> -->
+<h3>5.Pruebas rigurosas</h3>  -->
 
 
 
