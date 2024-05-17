@@ -11,7 +11,7 @@ Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidia
  Desarrollar una herramienta integral para la búsqueda de viajes y dar una mayor facilidad a la hora de hacer transacciones con diferentes tipos de criptos, ofreciendo diferentes alternativas de pago.
 <h1>Mockup</h1>
 <img src="/IMG/Mockup.jpg">
-<img src="/IMG/diagrama de flujo.png">
+
 
 <h1>Planteamiento del problema (dolores)</h1>
  
@@ -130,6 +130,10 @@ Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidia
 - Ofertas exclusivas: Negociación de ofertas especiales con los vuelos.
 
 - Soporte al Cliente: Asistencia en tiempo real para resolver dudas, preguntas o inconformidades.
+ 
+ 
+ <h2>diagrama de flujo</h2>
+<img src="/IMG/diagrama de flujo.png">
 
 
 
