@@ -132,7 +132,7 @@ Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidia
 - Soporte al Cliente: Asistencia en tiempo real para resolver dudas, preguntas o inconformidades.
  
  
- <h2>diagrama de flujo</h2>
+ <h2>Diagrama de flujo</h2>
 <img src="/IMG/diagrama de flujo.png">
 
 
