@@ -7,8 +7,12 @@ TripCoin es una plataforma de búsqueda de vuelos que permite a los usuarios enc
 Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidiana y muy pocas cosas se pueden pagar realizar pagos con cripto monedas, principalmente queremos lograr procesar los pagos de vuelos con criptomoneda y poder agilizar ese proyecto con seguridad para dar una experiencia optima al usuario.
 
 <h1>OBJETIVO GENERAL</h1>
+
  Desarrollar una herramienta integral para la búsqueda de viajes y dar una mayor facilidad a la hora de hacer transacciones con diferentes tipos de criptos, ofreciendo diferentes alternativas de pago.
+<h1>Mockup</h1>
+<img src="/IMG/Mockup.jpg">
 <h1>Planteamiento del problema (dolores)</h1>
+ 
  Los viajeros enfrentan dificultades al buscar vuelos en diferentes páginas webs con un precio equilibrado y un pago confiable. Actualmente, existen pocas o nulas páginas que implementen pagos con algún tipo de criptomoneda en este ámbito, nuestro objetivo es poder satisfacer esa necesidad sin tener que trasladar la moneda para no perder su valor.
 
 <h1>Alcance del proyecto</h1>
