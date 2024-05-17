@@ -1,15 +1,47 @@
-.caja{
-    margin-top: 10%;
+.centro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+  }
+  
+  .caja {
     width: 400px;
     height: 200px;
-    background-color: red;
-
-}
-.centro{
+    margin: 10px;
+    border: 1px solid #ddd;
+    position: relative;
+    margin-top: 10%;
+  }
+  
+  .caja img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    text-align: center;
     align-items: center;
-    justify-content: space-around;
-
-}
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+  
+  .caja:hover .info {
+    opacity: 1;
+  }
