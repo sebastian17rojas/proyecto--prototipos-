@@ -1,0 +1,15 @@
+.caja{
+    margin-top: 10%;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+
+}
+.centro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+
+}
