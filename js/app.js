@@ -20,4 +20,6 @@
       </div>
   </nav>
 `
-
+document.getElementById("bot").innerHTML = `
+<div class="elfsight-app-1aea3206-7d4e-4013-abaa-79a05bd1abf3" data-elfsight-app-lazy></div>
+`

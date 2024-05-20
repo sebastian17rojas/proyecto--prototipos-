@@ -133,7 +133,10 @@ Actualmente el mercado de criptomonedas aun esta muy excluido de la vida cotidia
  
  
  <h2>Diagrama de flujo</h2>
-<img src="/IMG/diagrama de flujo.png">
+<img src="/IMG/diagrama de flujo.png" alt="">
+
+
+
 
 
 
