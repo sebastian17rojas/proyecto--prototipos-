@@ -21,10 +21,14 @@
   </nav>
 `
 
-
-const caja = document.querySelector("caja");
-
-caja.addEventListener(`click`, (event)=>{
-    window.location.href = "page.html"
-    
-} )
+document.addEventListener('DOMContentLoaded', (event) => {
+    const cajas = document.querySelectorAll('.caja');
+    cajas.forEach(caja => {
+      caja.addEventListener('click', () => {
+        const url = caja.getAttribute('data-url');
+        if (url) {
+          window.location.href = url;
+        }
+      });
+    });
+  });
