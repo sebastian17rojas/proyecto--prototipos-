@@ -1,20 +1,19 @@
-let Val = document.getElementById("ingresar");
-let user = document.getElementById("user");
-let password = document.getElementById("password");
+const loginForm = document.querySelector('#loginForm');
 
-Val.addEventListener(`click`, function(evt){
-    evt.preventDefault(); 
-  
-    if(password.value === ''){
-        console.log('El campo contraseña es obligatorio');
-        return false;
-    } else if(user.value === ''){
-        console.log('El campo de usuario es obligatorio');
-        return false;
-    } else if (user.value === "Brandon" && password.value === "1234"){
-        window.location.href = "../html/index.html";
-    } else {
-        alert("Usuario o contraseña incorrectos");
-        return false;
+loginForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    const email = document.querySelector('#email').value;
+    const password = document.querySelector('#password').value;
+    const users = JSON.parse(localStorage.getItem('users')) || [];
+    
+    const validUser = users.find(user => user.email === email && user.password === password);
+
+    if (!validUser) {
+        return alert('Usuario y/o contraseña incorrectos');
     }
+
+    alert(`Bienvenido ${validUser.name}`);
+    localStorage.setItem('login_success', JSON.stringify(validUser))
+    window.location.href = 'indexlog.html';
 });
