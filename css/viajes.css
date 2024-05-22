@@ -9,10 +9,14 @@
     width: 400px;
     height: 200px;
     margin: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ff000000;
     position: relative;
     margin-top: 10%;
+    border-radius: 25px;
+    overflow: hidden;
+
   }
+
   
   .caja img {
     position: absolute;
@@ -21,28 +25,38 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 25px;
+  }
+
+  .caja img:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
   }
   
   .info {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    background-color: rgba(204, 203, 203, 0.61);
+    color: rgb(0, 0, 0);
     padding: 10px;
     box-sizing: border-box;
-    opacity: 0;
-    transition: opacity 0.3s ease;
     z-index: 1;
+    border-radius: 0px 0px 25px 25px;
+    border-top: 0px;
+  }
+
+
+  p {
+    background-color: white;
+    border-radius: 25px;
+    padding: 5%;
   }
   
-  .caja:hover .info {
-    opacity: 1;
-  }
-  
+
