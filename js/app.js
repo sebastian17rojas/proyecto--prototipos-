@@ -9,7 +9,6 @@
        <!--<div class='title pointerCursor'>Select an option <i class="fa fa-angle-right"></i></div>
       <div class='menu pointerCursor hide'>-->
           <ul>
-              <li><a href="vuelos.html">Vuelos</a></li>
               <li><a href="ofertas.html">Ofertas</a></li>
               <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
               <li><a href="page.html">Métodos de pago</a></li>
