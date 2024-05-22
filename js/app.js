@@ -11,7 +11,6 @@
           <ul>
               <li><a href="ofertas.html">Ofertas</a></li>
               <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
-              <li><a href="page.html">Métodos de pago</a></li>
               <li><a href="help.html">Ayuda</a></li>
               <a href="../html/login.html"><button id="z">login</button></a>
           
