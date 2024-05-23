@@ -568,7 +568,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td></td>
+            <td>neiva</td>
             
             <td class="two" id="po">10% DTO</td>
             
