@@ -9,6 +9,7 @@
        <!--<div class='title pointerCursor'>Select an option <i class="fa fa-angle-right"></i></div>
       <div class='menu pointerCursor hide'>-->
           <ul>
+              <li><a href="page.html">Métodos de pago</a></li>
               <li><a href="ofertas.html">Ofertas y destinos</a></li>
               <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
               <li><a href="help.html">Ayuda</a></li>
