@@ -1,80 +1,50 @@
-:root{
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
-    transition: all 0.1s cubic-bezier(0.645, 0.45, 0.355, 1);
 }
 
-*{
-    margin: 0;
-    padding: 0;
+/* Estilos para los formularios */
+form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
 }
 
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
 body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-section{
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 1em;
-}
-
-section h1{
-    font-size: 3em;
-}
-
-section h2{
-    text-align: center;
-    width: 100%;
-    margin-bottom: 1em;
-    font-size: 2.5em;
-}
-
-section form{
-    padding: 1.5em;
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 500px;
-    border: 2px solid rgba(0, 0, 0,.1);
-}
-
-section form label{
-    width: 100%;
-    padding: 0.2em;
-    margin-bottom: 0.5em;
-}
-
-section form input{
-    width: 100%;
-    margin-bottom: 1em;
-    padding: 0.8em;
-    border-radius: 9px;
-    border: none;
-    outline-color: #2c4df2 ;
-    background-color: #eee;
-}
-
-section form input[type='submit'] {
-    margin-top: 1.5em;
-    background-color: #2c4df2;
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    transition: all 0.1s cubic-bezier(0.645, 0.45, 0.355, 1);
-}
-
-section form input[type='submit']:active{
-    transform: scale(0.97);
-}
-
-section p{
-    margin-top: 1.5;
-}
-
-section p a{
-    text-decoration: none;
-    color: #2c4df2;
+    background: rgb(168,163,249);
+    background: linear-gradient(90deg, rgba(168,163,249,1) 0%, rgba(78,78,242,1) 27%, rgba(7,53,150,1) 49%, rgba(206,247,255,1) 100%);
 }
