@@ -1,0 +1,164 @@
+{
+    "departamentos": [
+        {
+            "nombre": "Amazonas",
+            "capital": "Leticia",
+            "aeropuerto": "Aeropuerto Internacional Alfredo Vásquez Cobo"
+        },
+        {
+            "nombre": "Antioquia",
+            "capital": "Medellín",
+            "aeropuerto": "Aeropuerto Internacional José María Córdova"
+        },
+        {
+            "nombre": "Arauca",
+            "capital": "Arauca",
+            "aeropuerto": "Aeropuerto Santiago Pérez Quiroz"
+        },
+        {
+            "nombre": "Atlántico",
+            "capital": "Barranquilla",
+            "aeropuerto": "Aeropuerto Internacional Ernesto Cortissoz"
+        },
+        {
+            "nombre": "Bolívar",
+            "capital": "Cartagena",
+            "aeropuerto": "Aeropuerto Internacional Rafael Núñez"
+        },
+        {
+            "nombre": "Boyacá",
+            "capital": "Tunja",
+            "aeropuerto": "Aeropuerto Gustavo Rojas Pinilla (Paipa)"
+        },
+        {
+            "nombre": "Caldas",
+            "capital": "Manizales",
+            "aeropuerto": "Aeropuerto La Nubia"
+        },
+        {
+            "nombre": "Caquetá",
+            "capital": "Florencia",
+            "aeropuerto": "Aeropuerto Gustavo Artunduaga Paredes"
+        },
+        {
+            "nombre": "Casanare",
+            "capital": "Yopal",
+            "aeropuerto": "Aeropuerto El Alcaraván"
+        },
+        {
+            "nombre": "Cauca",
+            "capital": "Popayán",
+            "aeropuerto": "Aeropuerto Guillermo León Valencia"
+        },
+        {
+            "nombre": "Cesar",
+            "capital": "Valledupar",
+            "aeropuerto": "Aeropuerto Alfonso López Pumarejo"
+        },
+        {
+            "nombre": "Chocó",
+            "capital": "Quibdó",
+            "aeropuerto": "Aeropuerto El Caraño"
+        },
+        {
+            "nombre": "Córdoba",
+            "capital": "Montería",
+            "aeropuerto": "Aeropuerto Los Garzones"
+        },
+        {
+            "nombre": "Cundinamarca",
+            "capital": "Bogotá",
+            "aeropuerto": "Aeropuerto Internacional El Dorado"
+        },
+        {
+            "nombre": "Guainía",
+            "capital": "Inírida",
+            "aeropuerto": "Aeropuerto César Gaviria Trujillo"
+        },
+        {
+            "nombre": "Guaviare",
+            "capital": "San José del Guaviare",
+            "aeropuerto": "Aeropuerto Jorge Enrique González"
+        },
+        {
+            "nombre": "Huila",
+            "capital": "Neiva",
+            "aeropuerto": "Aeropuerto Benito Salas"
+        },
+        {
+            "nombre": "La Guajira",
+            "capital": "Riohacha",
+            "aeropuerto": "Aeropuerto Almirante Padilla"
+        },
+        {
+            "nombre": "Magdalena",
+            "capital": "Santa Marta",
+            "aeropuerto": "Aeropuerto Internacional Simón Bolívar"
+        },
+        {
+            "nombre": "Meta",
+            "capital": "Villavicencio",
+            "aeropuerto": "Aeropuerto Vanguardia"
+        },
+        {
+            "nombre": "Nariño",
+            "capital": "Pasto",
+            "aeropuerto": "Aeropuerto Antonio Nariño"
+        },
+        {
+            "nombre": "Norte de Santander",
+            "capital": "Cúcuta",
+            "aeropuerto": "Aeropuerto Internacional Camilo Daza"
+        },
+        {
+            "nombre": "Putumayo",
+            "capital": "Mocoa",
+            "aeropuerto": "Aeropuerto Caucayá (Puerto Asís)"
+        },
+        {
+            "nombre": "Quindío",
+            "capital": "Armenia",
+            "aeropuerto": "Aeropuerto Internacional El Edén"
+        },
+        {
+            "nombre": "Risaralda",
+            "capital": "Pereira",
+            "aeropuerto": "Aeropuerto Internacional Matecaña"
+        },
+        {
+            "nombre": "San Andrés y Providencia",
+            "capital": "San Andrés",
+            "aeropuerto": "Aeropuerto Internacional Gustavo Rojas Pinilla"
+        },
+        {
+            "nombre": "Santander",
+            "capital": "Bucaramanga",
+            "aeropuerto": "Aeropuerto Internacional Palonegro"
+        },
+        {
+            "nombre": "Sucre",
+            "capital": "Sincelejo",
+            "aeropuerto": "Aeropuerto Las Brujas"
+        },
+        {
+            "nombre": "Tolima",
+            "capital": "Ibagué",
+            "aeropuerto": "Aeropuerto Perales"
+        },
+        {
+            "nombre": "Valle del Cauca",
+            "capital": "Cali",
+            "aeropuerto": "Aeropuerto Internacional Alfonso Bonilla Aragón"
+        },
+        {
+            "nombre": "Vaupés",
+            "capital": "Mitú",
+            "aeropuerto": "Aeropuerto Fabio Alberto León Bentley"
+        },
+        {
+            "nombre": "Vichada",
+            "capital": "Puerto Carreño",
+            "aeropuerto": "Aeropuerto Germán Olano"
+        }
+    ]
+}
