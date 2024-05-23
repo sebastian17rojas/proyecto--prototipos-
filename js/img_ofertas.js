@@ -1,5 +1,27 @@
 document.getElementById("ofertas_IMG").innerHTML = `
 
+<div class="search-bar">
+<img id="avion" src="../IMG/avion-removebg-preview.png">
+    <img id="nubes" src="../IMG/nubes-removebg-preview.png">
+<div class="trip-type">
+    <label><input type="radio" name="trip-type" value="round-trip" checked> Ida y Vuelta</label>
+    <label><input type="radio" name="trip-type" value="one-way"> Solo Ida</label>
+</div>
+
+<div class="input-group">
+    <input type="text" id="origin" placeholder="Origen">
+    <input type="text" id="destination" placeholder="Destino">
+    <input type="date" id="departure-date">
+    <input type="date" id="return-date">
+    <div class="passengers-input">
+        <input type="number" id="passengers" min="1" max="220" value="1">
+        <label for="passengers">Pasajeros</label>
+    </div>
+</div>
+
+<button>Buscar</button>
+</div>
+
 
 
 
