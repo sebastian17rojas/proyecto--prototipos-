@@ -12,7 +12,8 @@
 </head>
 <header id="nav_bar"></header>
 <body>
-    <div id="bot"></div>
+    
+<div id="bot"></div>
     <div class="container">
         <form action="">
             <div class="row">
@@ -81,6 +82,48 @@
     </div>
 
 
+    <!-- Ventana emergente -->
+<div id="modal" class="modal">
+    <!-- Contenido de la ventana emergente -->
+    <div class="modal-content">
+        <h1>Centro de Control</h1>
+        <div class="icons">
+            <div class="tarjeta">
+                <div class="icono1"><i class="fa-solid fa-arrow-up"></i></div>
+                <div class="enviar">enviar</div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono2"><i class="fa-solid fa-qrcode"></i></div>
+                <div class="recibir">recibir</div>
+            </div>
+            <div class="tarjeta">
+                <div class="icono3"><i class="fa-solid fa-wifi"></i></div>
+                <div class="puente">puente</div>
+            </div>
+
+            <div class="tarjeta">
+                <div class="icono4"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                <div class="intercambiar">intercambiar</div>
+            </div>
+            <div class="tarjeta">
+                <div class="icono5"><i class="fa-solid fa-tag"></i></div>
+                <div class="comprar">comprar</div>
+            </div>
+
+        </div>
+        <hr>
+        <h2>Enviar A</h2>
+
+        <div class="inputBox"><input type="contenedor-texto" placeholder="introduce la direcion 0x"> <i class="fa-solid fa-address-book"></i></div>
+
+        <h2>Cantidad<div class="texto">Equilibrio 0 AVAX</div> </h2>
+
+        <div class="cantidad"><div class="inputBox"><input class="gris" type="contenedor-texto" placeholder="0.0" >  </div></div>
+
+        <button  class="comprar" id="close-modal">cerrar y enviar </button>
+    </div>
+</div>
 <script src="../js/walle.js"></script>
 <script src="../js/app.js"></script>
 <script src="https://kit.fontawesome.com/1f78f13a92.js" crossorigin="anonymous"></script>

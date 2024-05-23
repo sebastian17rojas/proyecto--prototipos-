@@ -1,363 +1,111 @@
-/* Estilos para el modal */
-
 .modal {
-
   display: none;
-
   position: fixed;
-
   z-index: 1;
-
   left: 0;
-
   top: 0;
-
   width: 100%;
-
   height: 100%;
-
   overflow: auto;
-
   background-color: rgba(0, 0, 0, 0.599);
-
 }
-
 
 .modal-content {
-
   background-color: #000000;
-
   margin: 15% auto;
-
   padding: 20px;
-
   border: 1px solid #000000;
-
-  width: 80%; /* ajustado para que sea más ancho en pantallas pequeñas */
-
-  height: 70%;
-
+  width: 45%;
+  height: 80%;
   border-radius: 20px;
-
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   color: white;
-
-}
-
-
-.close {
-
-  color: #000000;
-
-  float: right;
-
-  font-size: 28px;
-
-  font-weight: bold;
-
-  margin-top: -10px;
-
-  margin-right: -10px;
-
-}
-
-
-.close:hover,
-
-.close:focus {
-
-  color: black;
-
-  text-decoration: none;
-
-  cursor: pointer;
-
-}
-
-
-.modal-content .container {
-
   display: flex;
-
   flex-direction: column;
-
 }
 
-
-.modal-content input[type="file"],
-
-.modal-content textarea {
-
-  width: 100%;
-
-  margin: 10px 0;
-
-  padding: 10px;
-
-  border: 1px solid #ccc;
-
-  border-radius: 10px;
-
-  font-size: 16px;
-
+.modal-content h1,
+.modal-content h2 {
+  margin: 0;
 }
 
-
-.modal-content button {
-
-  background-color: #4c8caf;
-
-  color: rgb(255, 255, 255);
-
-  padding: 10px 20px;
-
-  margin-top: 20px;
-
-  border: none;
-
-  border-radius: 10px;
-
-  cursor: pointer;
-
-  font-size: 16px;
-
-  transition: background-color 0.3s ease;
-
-}
-
-
-.modal-content button:hover {
-
-  background-color: #45a049;
-
-}
-
-
-.icons {
-
+.modal-content .icons {
   display: flex;
-
   justify-content: center;
-
-  gap: 10%;
-
   color: white;
-
-  border-radius: 50%;
-
-}
-
-
-.icono1, .icono2, .icono3, .icono4, .icono5 {
-
-  background-color: rgb(255, 255, 255);
-
-  color: rgb(0, 0, 0);
-
-  width: 50px;
-
-  height: 50px;
-
-  border-radius: 50px;
-
-  display: flex;
-
-  justify-content: center;
-
-  align-items: center;
-
-}
-
-
-h2 {
-
-  display: flex;
-
-  justify-content: first baseline;
-
-}
-
-
-.texto {
-
-  display: flex;
-
-  justify-content: end;
-
-  margin-left: 40%;
-
-}
-
-
-.inputBox {
-
-  position: relative;
-
   margin-bottom: 20px;
-
 }
 
-
-.inputBox input {
-
-  width: 100%;
-
-  padding: 10px;
-
-  border: 1px solid #ccc;
-
-  border-radius: 10px;
-
-  font-size: 16px;
-
-}
-
-
-.inputBox i {
-
-  position: absolute;
-
-  right: 10px;
-
-  top: 10px;
-
-  font-size: 18px;
-
-  color: #ccc;
-
-}
-.cantidad {
-
+.modal-content .tarjeta {
   display: flex;
-
-  justify-content: space-between;
-
+  flex-direction: column;
   align-items: center;
-
-  margin-top: 20px;
-  background-color: rgb(125, 125, 125);
-
+  margin: 0 10px;
 }
 
-
-.cantidad input {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  width: 90%;
-
-  padding: 10px;
-
-  border: 1px solid #656565;
-
-  border-radius: 10px;
-
-  font-size: 16px;
-
+.modal-content .icono1,
+.modal-content .icono2,
+.modal-content .icono3,
+.modal-content .icono4,
+.modal-content .icono5 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
-
-.cantidad button {
-
+.modal-content .enviar,
+.modal-content .recibir,
+.modal-content .puente,
+.modal-content .intercambiar,
+.modal-content .comprar {
   background-color: #4c8caf;
-
   color: rgb(255, 255, 255);
-
-  padding: 10px 20px;
-
+  padding: 5px 10px;
   border: none;
-
   border-radius: 10px;
-
   cursor: pointer;
-
-  font-size: 16px;
-
+  font-size: 14px;
   transition: background-color 0.3s ease;
-
 }
 
-
-.cantidad button:hover {
-
+.modal-content .enviar:hover,
+.modal-content .recibir:hover,
+.modal-content .puente:hover,
+.modal-content .intercambiar:hover,
+.modal-content .comprar:hover {
   background-color: #45a049;
-
 }
 
+.modal-content .inputBox {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
 
-.gris {
-
-  background-color: #ccc;
-
+.modal-content .inputBox input {
+  width: 100%;
   padding: 10px;
-
+  border: 1px solid #ccc;
   border-radius: 10px;
-
-  margin-top: 20px;
-
-  text-align: center;
-
   font-size: 16px;
-
 }
 
-
-@media (max-width: 480px) {
-
-  .modal-content {
-
-    width: 95%;
-
-    height: 90%;
-
-  }
-
-  .icons {
-
-    flex-direction: column;
-
-    align-items: center;
-
-  }
-
-  .icono1, .icono2, .icono3, .icono4, .icono5 {
-
-    margin: 10px 0;
-
-  }
-
-  .inputBox {
-
-    margin-bottom: 10px;
-
-  }
-
-  .cantidad {
-
-    flex-direction: column;
-
-    align-items: center;
-
-  }
-
-  .cantidad input {
-
-    width: 100%;
-
-  }
-
-  .cantidad button {
-
-    margin-top: 10px;
-
-  }
-
-  .gris {
-
-    margin-top: 10px;
-
-  }
-
+.modal-content .inputBox i {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 18px;
+  color: #ccc;
 }
-
+.texto{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  
+}
