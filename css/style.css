@@ -5,61 +5,6 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
-header{
-    display: flex;
-    background-color: #fff;
-    justify-content: space-between;
-    align-items: center;
-    height: 10%;
-    width: 100%;
-    position: fixed;
-    z-index: 7;
-}
-
-
-
-.logo img {
-    width: 160px; 
-    height: auto; 
-    cursor: pointer;
-    transition: all 0.3s;
-    padding-left: 20px;
-}
-
-.logo img:hover{
-    transform: scale(1.2);
-}
-
-#header_nav ul li {
-    list-style: none;
-    margin-bottom: 10px;
-    font-size: 16px;
-
-}
-
-#header_nav li{
-    display: inline-block;
-    padding: 0 20px;
-}
-
-#header_nav a{
-    text-decoration: none;
-    color: #2c4df2;
-}
-
-#z {
-    background-color: blue; 
-    color: white; 
-    border-radius: 10px;
-    width: 100px; 
-    height: 30px;
-    border: none;
-    font-style: italic;
-    margin-right: 5px;
-    cursor: pointer;
-    
-}
-
 #principal_container{
     background-image: url(/IMG/razones-invertir-cartagena-colombia.webp);
     background-size: cover;
@@ -162,3 +107,196 @@ footer {
     justify-content: flex-end;
     align-items: center;
 }
+
+
+
+
+
+
+
+/* hamburguer */
+
+  
+@media (prefers-color-scheme: dark) {
+    :root {
+      --negro: #ececec;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      -webkit-animation: none !important;
+              animation: none !important;
+      -webkit-transition: none !important;
+      transition: none !important;
+    }
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    vertical-align: baseline;
+  }
+  img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center center;
+       object-position: center center;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+  }
+  
+  p a {
+    display: inline;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: "";
+    content: none;
+  }
+  
+  ::-moz-selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+  }
+  ::selection {
+    background-color: var(--negro);
+    color: var(--blanco);
+  }
+  
+  form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+        -ms-hyphens: auto;
+            hyphens: auto;
+    background-color: transparent;
+    display: block;
+  
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+  
+  table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+  }
+  body {
+    min-height: 100vh;
+    font-size: 100%;
+    font-family: var(--tipo-principal);
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+  /* Código */
+  .header{
+    width:100%;
+    background-color: #fff;
+    padding: 1em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #2c4df2;
+    height: 10%;
+    position: fixed;
+    z-index: 7;
+  }
+  .header .button{
+    /* background-color: crimson; */
+    display: none;
+  }
+  .header .svg{
+    width:2em;
+    height:2em;
+    fill:#2c4df2;
+  }
+
+  .header .ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+  .header .li{
+    margin: 0 .5em;
+  }
+  
+  @media screen and (max-width:480px){
+    .header .button{
+      display: block;
+      cursor: pointer;
+    }
+    .header .nav{
+      width:100%;
+      /* display: none; */
+      height:0;
+      pointer-events: none;
+      overflow: hidden;
+      transition: all .5s ease;
+  
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: center;
+      align-items: center;
+    }
+    .header .nav.activo{
+      /* display: block; */
+      height:50vh;
+      pointer-events: auto;
+      background-color: white;
+    }
+    .header .ul{
+      flex-direction: column;
+    }
+    .header .li{
+      margin: 1rem 0;
+    }
+  
+  }
+    .logo img {
+      width: 160px; 
+      height: auto; 
+      cursor: pointer;
+      transition: all 0.3s;
+      padding-left: 20px;
+  }
+  
+  .logo img:hover{
+      transform: scale(1.2);
+  }

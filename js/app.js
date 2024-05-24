@@ -1,24 +1,42 @@
 
   document.getElementById("nav_bar").innerHTML = `
+  <header class="header">
   <div class="logo">
-      <a href="../html/index.html">
-      <img src="/IMG/trip-coin azul.png" alt="Logo">
-      </a>
-  </div>
-  <nav id="header_nav">
-       <!--<div class='title pointerCursor'>Select an option <i class="fa fa-angle-right"></i></div>
-      <div class='menu pointerCursor hide'>-->
-          <ul>
-              <li><a href="page.html">Métodos de pago</a></li>
-              <li><a href="ofertas.html">Ofertas y destinos</a></li>
-              <li><a href="reserva-vuelo.html">Reservar vuelos</a></li>
-              <li><a href="help.html">Ayuda</a></li>
-              <a href="../html/login.html"><button id="z">login</button></a>
-          
-          </ul>
-      </div>
-  </nav>
+    <a href="../html/index.html">
+    <img src="../IMG/trip-coin azul.png" alt="Logo">
+    </a>
+</div>
+    <button class="button">
+      <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+    </button>
+
+    <nav class="nav">
+        <ul class="ul">
+            <li class="li"><a href="page.html" class="a">metodos de pago</a></li>
+            <li class="li"><a href="ofertas.html" class="a">oferyas y destinos</a></li>
+            <li class="li"><a href="reserva-vuelo.html" class="a">reserva vuelos</a></li>
+            <li class="li"><a href="help.html" class="a">ayuda</a></li>
+            <li class="li"><a href="loggin.html" class="a">loggin</a></li>
+        </ul>
+    </nav>
+</header>
 `
+
+/* Cuando hago CLICK .button, .nav TOGGLE 'activo' */
+const button = document.querySelector('.button')
+const nav    = document.querySelector('.nav')
+
+button.addEventListener('click',()=>{
+    nav.classList.toggle('activo')
+})
+
+
+
+
+
+
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const cajas = document.querySelectorAll('.caja');
