@@ -18,7 +18,7 @@
             <li class="li"><a href="ofertas.html" class="a">oferyas y destinos</a></li>
             <li class="li"><a href="reserva-vuelo.html" class="a">reserva vuelos</a></li>
             <li class="li"><a href="help.html" class="a">ayuda</a></li>
-            <li class="li"><a href="loggin.html" class="a">loggin</a></li>
+            <li class="li"><a href="loginx.html" class="a">loggin</a></li>
         </ul>
     </nav>
 </header>
