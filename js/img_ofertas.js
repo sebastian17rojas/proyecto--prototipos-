@@ -18,7 +18,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
               </tr>
               <tr>
               <td class="abajo two">Oferta</td>
-              <td class="abajo" id="po">COP320.000</td>
+              <td class="abajo" id="po">COP300.000</td>
               </tr>
               </table>
             </div>
@@ -38,7 +38,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP145.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -57,7 +57,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP130.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -98,7 +98,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP260.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -117,7 +117,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP150.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -139,7 +139,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP230.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -158,7 +158,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP155.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -177,7 +177,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP250.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -199,7 +199,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP200.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -237,7 +237,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP145.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -259,7 +259,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP180.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -278,7 +278,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP160.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -297,7 +297,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP168.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -319,7 +319,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP260.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -338,7 +338,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP210.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -357,7 +357,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP230.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -378,7 +378,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP210.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -397,7 +397,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP260.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -416,7 +416,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP230.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -438,7 +438,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP250.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -457,7 +457,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP160.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -476,7 +476,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP230.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -497,7 +497,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP200.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -516,7 +516,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP200.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -535,7 +535,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP510.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -557,7 +557,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -576,7 +576,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP200.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -595,7 +595,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP190.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -616,7 +616,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP210.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
@@ -635,7 +635,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </tr>
           <tr>
           <td class="abajo two">Oferta</td>
-          <td class="abajo" id="po">COP190.000</td>
+          <td class="abajo" id="po">COP300.000</td>
           </tr>
           </table>
         </div>
