@@ -1,26 +1,5 @@
 document.getElementById("ofertas_IMG").innerHTML = `
 
-<div class="search-bar">
-<img id="avion" src="../IMG/avion-removebg-preview.png">
-    <img id="nubes" src="../IMG/nubes-removebg-preview.png">
-<div class="trip-type">
-    <label id="button_trip"><input type="radio" name="trip-type" value="round-trip" checked> Ida y Vuelta</label>
-    <label id="button_trip"><input type="radio" name="trip-type" value="one-way"> Solo Ida</label>
-</div>
-
-<div class="input-group">
-    <input type="text" id="origin" placeholder="Origen">
-    <input type="text" id="destination" placeholder="Destino">
-    <input type="date" id="departure-date">
-    <input type="date" id="return-date">
-    <div class="passengers-input">
-        <input type="number" id="passengers" min="1" max="220" value="1">
-        <label for="passengers">Pasajeros</label>
-    </div>
-</div>
-
-<button>Buscar</button>
-</div>
 
 
 
@@ -32,7 +11,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
             <div id="info_container">
               <table id="info_1">
               <tr>
-                <td>Leticia</td>
+                <td class="data-city">Leticia</td>
                 
                 <td class="two" id="po">5% DTO</td>
                 
@@ -52,7 +31,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Medellin</td>
+            <td class="data-city">Medellin</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -71,7 +50,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Arauca</td>
+            <td class="data-city">Arauca</td>
             
             <td class="two" id="po">20% DTO</td>
             
@@ -93,7 +72,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Barranquilla</td>
+            <td class="data-city">Barranquilla</td>
             
             <td class="two" id="po">8% DTO</td>
             
@@ -112,7 +91,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Cartagena</td>
+            <td class="data-city">Cartagena</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -131,7 +110,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Tunja</td>
+            <td class="data-city">Tunja</td>
             
             <td class="two" id="po">18% DTO</td>
             
@@ -153,7 +132,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Manizales</td>
+            <td class="data-city">Manizales</td>
             
             <td class="two" id="po">20% DTO</td>
             
@@ -172,7 +151,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Florencia</td>
+            <td class="data-city">Florencia</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -191,7 +170,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Yopal</td>
+            <td class="data-city">Yopal</td>
             
             <td class="two" id="po">14% DTO</td>
             
@@ -213,7 +192,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Popayan</td>
+            <td class="data-city">Popayan</td>
             
             <td class="two" id="po">10% DTO</td>
             
@@ -232,7 +211,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Valledupar</td>
+            <td class="data-city">Valledupar</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -251,7 +230,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Quipdo</td>
+            <td class="data-city">Quipdo</td>
             
             <td class="two" id="po">10% DTO</td>
             
@@ -273,7 +252,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Monteria</td>
+            <td class="data-city">Monteria</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -292,7 +271,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Bogota</td>
+            <td class="data-city">Bogota</td>
             
             <td class="two" id="po">5% DTO</td>
             
@@ -311,7 +290,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Inrida</td>
+            <td class="data-city">Inrida</td>
             
             <td class="two" id="po">12% DTO</td>
             
@@ -333,7 +312,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Jose del guaviare</td>
+            <td class="data-city">Jose del guaviare</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -352,7 +331,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Neiva</td>
+            <td class="data-city">Neiva</td>
             
             <td class="two" id="po">10% DTO</td>
             
@@ -371,7 +350,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Puerto carreño</td>
+            <td class="data-city">Puerto carreño</td>
             
             <td class="two" id="po">10% DTO</td>
             
@@ -392,7 +371,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Riohacha</td>
+            <td class="data-city">Riohacha</td>
             
             <td class="two" id="po">10% DTO</td>
             
@@ -411,7 +390,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Santa marta</td>
+            <td class="data-city">Santa marta</td>
             
             <td class="two" id="po">10% DTO</td>
             
@@ -430,7 +409,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Villavicencio</td>
+            <td class="data-city">Villavicencio</td>
             
             <td class="two" id="po">12% DTO</td>
             
@@ -452,7 +431,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>San juan de pasto</td>
+            <td class="data-city">San juan de pasto</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -471,7 +450,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>San jose de cucuta</td>
+            <td class="data-city">San jose de cucuta</td>
             
             <td class="two" id="po">12% DTO</td>
             
@@ -490,7 +469,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Mocoa</td>
+            <td class="data-city">Mocoa</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -511,7 +490,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Armenia</td>
+            <td class="data-city">Armenia</td>
             
             <td class="two" id="po">18% DTO</td>
             
@@ -530,7 +509,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Pereira</td>
+            <td class="data-city">Pereira</td>
             
             <td class="two" id="po">20% DTO</td>
             
@@ -549,7 +528,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>San andres</td>
+            <td class="data-city">San andres</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -571,7 +550,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Bucaramanga</td>
+            <td class="data-city">Bucaramanga</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -590,7 +569,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>mitú</td>
+            <td class="data-city">mitú</td>
             
             <td class="two" id="po">8% DTO</td>
             
@@ -609,7 +588,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Sincelejo</td>
+            <td class="data-city">Sincelejo</td>
             
             <td class="two" id="po">30% DTO</td>
             
@@ -630,7 +609,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Ibague</td>
+            <td class="data-city">Ibague</td>
             
             <td class="two" id="po">15% DTO</td>
             
@@ -649,7 +628,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           <div id="info_container">
           <table id="info_1">
           <tr>
-            <td>Cali</td>
+            <td class="data-city">Cali</td>
             
             <td class="two" id="po">15% DTO</td>
             
