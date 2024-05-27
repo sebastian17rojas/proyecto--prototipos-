@@ -55,6 +55,7 @@ color: #fff;
 margin-top: 50%;
 margin-left : 100%;
 transform: translate(-50%, -50%);
+display: flex;
+justify-content: center;
+align-items: center;
 }
-
-
