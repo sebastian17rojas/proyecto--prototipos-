@@ -1,25 +1,56 @@
-*{
+*, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 #large_box{
-    margin-top: ;
+    position: relative;
     display: flex;
     gap: 5%;
     justify-content: center;
     height: 700px;
 }
-#box_c{
+.box{
+    
+}
+#box_state{
     margin-top: 10%;
     height: 300px;
     width: 300px;
     background-color: aqua;
     border-radius: 100%;
-    
-    
+    background-image: url(https://www.oneair.es/wp-content/uploads/2022/06/senaleros-en-aeropuertos-cuales-son-sus-funciones.jpg);
+    background-size: cover;
+}   
+#box_gestion{
+    margin-top: 10%;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    border-radius: 100%;
+    background-image: url(/IMG/048_712480.jpg);
+    background-size: cover;
 }
-#a{
-    background-image: url(https://www.consumoteca.com/wp-content/uploads/Check-in-aeropuerto.png);
+#box_chekin{
+    margin-top: 10%;
+    height: 300px;
+    width: 300px;
+    border-radius: 100%;
+    background-image: url(/IMG/check-in-online.jpg);
+    background-size:cover ;
 }
+.text_container {
+    position: absolute;
+    bottom: 0;
+    z-index: 4;
+    opacity: 0;
+    transition: opacity .2s;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,.5);
+    padding: 2rem 1rem;
+    color: #fff;
+}
+
+
