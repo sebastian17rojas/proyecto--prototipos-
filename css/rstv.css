@@ -42,6 +42,7 @@
 }
 #box_chekin{
     background-image: url(/IMG/check-in-online.jpg);
+    
 }
 
 .text_container {
@@ -59,4 +60,13 @@ transform: translate(-50%, -50%);
 display: flex;
 justify-content: center;
 align-items: center;
+}
+
+.text_container h1,
+.text_container h2 {
+    padding: 3%;
+}
+
+h2 {
+    margin-left: 22%;
 }
