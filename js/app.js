@@ -32,7 +32,17 @@ button.addEventListener('click',()=>{
     nav.classList.toggle('activo')
 })
 
-
+document.addEventListener('DOMContentLoaded', (event) => {
+  const cajas = document.querySelectorAll('#box_chekin');
+  cajas.forEach(caja => {
+    caja.addEventListener('click', () => {
+      const url = caja.getAttribute('data-url');
+      if (url) {
+        window.location.href = url;
+      }
+    });
+  });
+});
 
 
 
