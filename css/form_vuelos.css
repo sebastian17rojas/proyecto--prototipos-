@@ -81,25 +81,23 @@
 }
 
 #nubes {
-    width: 10%;
+    width: 11.5%;
     height: 35%;
     margin-right: 80%;
     z-index: 1;
     position: absolute;
 }
 
-#avion { animation: hu__hu__ infinite 5s ease-in-out }
+#avion { animation: hu__hu__ infinite 2s ease-in-out }
 @keyframes hu__hu__ {
-    50% { transform: translateY(20px) }
+    50% { transform: translateY(30px) }
 }
 
-#comparison-window {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+#button_trip {
     background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
 }
