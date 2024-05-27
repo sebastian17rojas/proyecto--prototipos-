@@ -85,10 +85,12 @@
     display: flex;
     justify-content: space-between;
     max-width: 800px; 
+    
 }
 
 .icons div {
     text-align: center; 
+    margin: 15px;
 }
 
 .icons img {

@@ -17,23 +17,8 @@ document.getElementById("nav_bar").innerHTML = `
           <li class="li"><a href="ofertas.html" class="a">Ofertas y destinos</a></li>
           <li class="li"><a href="reserva-vuelo.html" class="a">Reservar vuelos</a></li>
           <li class="li"><a href="help.html" class="a">Ayuda</a></li>
-          <button id="logout">Logout</button>
+          <li class="li" id="login"><a href="loginx.html" class="a">Login</a></li>
       </ul>
   </nav>
 </header>
 `
-
-document.addEventListener('DOMContentLoaded', () => {
-    const user = JSON.parse(localStorage.getItem('login_success'));
-    if (!user) {
-        window.location.href = 'loginx.html';
-    }
-
-    const logout = document.querySelector('#logout');
-
-    logout.addEventListener('click', () => {
-        alert('¡Hasta pronto!');
-        localStorage.removeItem('login_success');
-        window.location.href = 'loginx.html'; 
-    });
-});
