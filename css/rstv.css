@@ -12,10 +12,7 @@
     height: 700px;
     
 }
-.box:hover > .text_container{
-    opacity: 1;
-    transform: translate(-50%,-50%) scale(1.2);
-    
+.box{
     
 }
 #box_state{
