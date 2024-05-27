@@ -14,11 +14,11 @@
 
     <nav class="nav">
         <ul class="ul">
-            <li class="li"><a href="page.html" class="a">metodos de pago</a></li>
-            <li class="li"><a href="ofertas.html" class="a">oferyas y destinos</a></li>
-            <li class="li"><a href="reserva-vuelo.html" class="a">reserva vuelos</a></li>
-            <li class="li"><a href="help.html" class="a">ayuda</a></li>
-            <li class="li"><a href="loginx.html" class="a">loggin</a></li>
+            <li class="li"><a href="page.html" class="a">Metodos de pago</a></li>
+            <li class="li"><a href="ofertas.html" class="a">Ofertas y destinos</a></li>
+            <li class="li"><a href="reserva-vuelo.html" class="a">Reservar vuelos</a></li>
+            <li class="li"><a href="help.html" class="a">Ayuda</a></li>
+            <li class="li" id="login"><a href="loginx.html" class="a">Login</a></li>
         </ul>
     </nav>
 </header>

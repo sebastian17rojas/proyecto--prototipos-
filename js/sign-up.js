@@ -26,6 +26,5 @@ signupForm.addEventListener('submit', (e) => {
 
     alert('¡Registro Exitoso!');
 
-    // Redirección a la página de inicio de sesión (login)
     window.location.href = 'loginx.html';
 });
