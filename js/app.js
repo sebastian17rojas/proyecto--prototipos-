@@ -44,10 +44,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 });
 
-
-
-
-
 document.addEventListener('DOMContentLoaded', (event) => {
     const cajas = document.querySelectorAll('.caja');
     cajas.forEach(caja => {
@@ -59,3 +55,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
       });
     });
   });
+
+  function test_check() {
+    const reservationCode = document.getElementById('reservation_code').value;
+    const lastName = document.getElementById('last_name').value;
+  
+    if (reservationCode === "1234" && lastName === "rodriguez") {
+      window.location.href = "/html/page.html"; // reemplaza con la URL de la página que deseas redirigir
+      return false; // para evitar que se envíe el formulario
+    }
+    return true; // para permitir que se envíe el formulario si no se cumple la condición
+  }
