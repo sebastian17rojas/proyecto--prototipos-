@@ -6,7 +6,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
 
 
 <div class="centro background-cover" >
-          <div class="caja" data-url="/html/page.html" >
+          <div class="caja" data-url="/html/form_offer.html" >
             <div class="info">
             <div id="info_container">
               <table id="info_1">
@@ -26,7 +26,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
             <img src="../IMG/-hcjx640.jpg" alt="">
           </div>
         
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -45,7 +45,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.tomplanmytrip.com/wp-content/uploads/2022/04/medellin.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -67,7 +67,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
       </div>
       
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -86,7 +86,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://conectandonegocios.com/uploads/noticias/1648135778.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -105,7 +105,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.civitatis.com/blog/wp-content/uploads/2023/02/playa-bocagrande-cartagena-indias.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -127,7 +127,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
        
       </div>
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -146,7 +146,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://regiones.prisamedia.co/wp-content/uploads/2023/07/GettyImages-1466543106-scaled.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -165,7 +165,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.florencia.travel/wp-content/uploads/2013/04/guia_de_florencia_viajes-y-turismo-1024x683.jpeg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -187,7 +187,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
       </div>
       
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -206,7 +206,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://aventurecolombia.com/wp-content/uploads/2020/08/popayan-cauca-colombia-10-%C2%A9-Tristan-Quevilly.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -225,7 +225,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://i0.wp.com/elperiodico.net.co/wp-content/uploads/2022/01/valledupar-3.jpg?fit=800%2C523&ssl=1" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -247,7 +247,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
        
       </div>
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -266,7 +266,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://larazon.co/wp-content/uploads/2023/03/Monteria-parnoamica-rio-sinu.jpeg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -285,7 +285,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.cepal.org/sites/default/files/styles/1920x1080/public/regionaloffice/images/bogota.jpg?itok=6GS_dObY" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -307,7 +307,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
       </div>
       
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -326,7 +326,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/GPNIURHZQ5E63OJL22M5RGWZLE.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -345,7 +345,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://media.viajando.travel/p/eb00b1868eccfc10bc3767bc10c0a747/adjuntos/236/imagenes/000/640/0000640627/1200x675/smart/neiva-colombiajpg.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -366,7 +366,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
         </div>
        
       </div><div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -385,7 +385,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.gobernaciondelmagdalena.gov.co/wp-content/uploads/2023/04/WhatsApp-Image-2023-04-10-at-6.12.47-PM.jpeg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -404,7 +404,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://content.r9cdn.net/rimg/dimg/df/e3/34edcf6c-city-29137-167c2c40aad.jpg?width=1366&height=768&xhint=1672&yhint=1230&crop=true" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -426,7 +426,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
       </div>
       
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -445,7 +445,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://imagenes.eltiempo.com/files/image_1200_600/uploads/2021/12/01/61a79da847572.jpeg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -464,7 +464,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://viajaporcolombia.com/images/mocoa.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -485,7 +485,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
         </div>
        
       </div><div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -504,7 +504,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://photo620x400.mnstatic.com/a67c75e8996acf5638984fb4cb790904/pereira.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -523,7 +523,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://images.mnstatic.com/48/19/481902d4d03765b5f47361f66d2cdb18.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -545,7 +545,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
       </div>
       
       <div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -564,7 +564,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.elheraldo.co/sites/default/files/articulo/2023/01/05/whatsapp_image_2023-01-05_at_12.46.26_pm.jpeg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -583,7 +583,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://www.elnuevodia.com.co/nuevodia/sites/default/files/styles/nota_800_x_400_/public/imagenes/2021/04/20/WhatsApp%20Image%202021-04-20%20at%2009.48.54%20copia_1.jpg?itok=CPqzTDAB" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -604,7 +604,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
         </div>
        
       </div><div class="centro background-cover">
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">
@@ -623,7 +623,7 @@ document.getElementById("ofertas_IMG").innerHTML = `
           </div>
           <img src="https://pbs.twimg.com/media/DZVeMD6VMAAVLby.jpg" alt="">
         </div>
-        <div class="caja"  data-url="/html/page.html">
+        <div class="caja"  data-url="/html/form_offer.html">
           <div class="info">
           <div id="info_container">
           <table id="info_1">

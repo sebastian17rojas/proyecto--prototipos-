@@ -49,7 +49,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       caja.addEventListener('click', () => {
         const url = caja.getAttribute('data-url');
         if (url) {
-          window.location.href = url;
+          window.open(url , '_blank', 'width=600,height=400');
         }
       });
     });
@@ -63,7 +63,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
       window.location.href = "/html/fly_details.html"; // reemplaza con la URL de la página que deseas redirigir
       return false; // para evitar que se envíe el formulario
     }
-    return true; // para permitir que se envíe el formulario si no se cumple la condición
+    else if (reservationCode != `1234` && lastName != `rodriguez`) {
+      return alert('informacion incorrecta');
+    }
+    
   }
 
   
