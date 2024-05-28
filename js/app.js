@@ -1,4 +1,7 @@
 
+/*
+The code uses the document.getElementById() function to select the HTML element with the nav_bar ID and then uses the innerHTML property to add a navigation bar with a logo, a menu button and a list of links.
+*/
   document.getElementById("nav_bar").innerHTML = `
   <header class="header">
   <div class="logo">
@@ -22,8 +25,9 @@
     </nav>
 </header>
 `
-
-/* Cuando hago CLICK .button, .nav TOGGLE 'activo' */
+/*
+The code uses the document.querySelector() function to select the HTML element with the button class and then uses the addEventListener() function to add a click event to the button. When the button is clicked, the function classList.toggle() is used to add or remove the active class to the HTML element with the class nav.
+*/
 const button = document.querySelector('.button')
 const nav    = document.querySelector('.nav')
 
@@ -31,6 +35,9 @@ button.addEventListener('click',()=>{
     nav.classList.toggle('activo')
 })
 
+/*
+The code uses the document.querySelectorAll() function to select all HTML elements with the ID box_chekin and then uses the forEach() function to add a click event to each element. When a box is clicked, the getAttribute() function is used to get the value of the data-url attribute and then the window.location.href function is used to redirect to the specified URL.
+*/
 document.addEventListener('DOMContentLoaded', (event) => {
   const cajas = document.querySelectorAll('#box_chekin');
   cajas.forEach(caja => {
@@ -42,6 +49,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
   });
 });
+
+/*
+El código utiliza la función document.querySelectorAll() para seleccionar todos los elementos HTML con la clase caja y luego utiliza la función forEach() para agregar un evento de clic a cada elemento. Cuando se hace clic en una caja, se utiliza la función getAttribute() para obtener el valor del atributo data-url y luego se utiliza la función window.open() para abrir la URL especificada en una nueva ventana.
+*/
 
 document.addEventListener('DOMContentLoaded', (event) => {
     const cajas = document.querySelectorAll('.caja');
@@ -55,13 +66,17 @@ document.addEventListener('DOMContentLoaded', (event) => {
     });
   });
 
+/*
+The code uses the test_check() function to validate the values entered in two text fields with the IDs reservation_code and last_name. If the values entered match the expected values, the window.location.href function is used to redirect to the specified URL. If the values entered do not match the expected values, an alert message is displayed.
+*/
+
   function test_check() {
     const reservationCode = document.getElementById('reservation_code').value;
     const lastName = document.getElementById('last_name').value;
   
     if (reservationCode === "1234" && lastName === "rodriguez") {
-      window.location.href = "/html/fly_details.html"; // reemplaza con la URL de la página que deseas redirigir
-      return false; // para evitar que se envíe el formulario
+      window.location.href = "/html/fly_details.html"; 
+      return false; 
     }
     else if (reservationCode != `1234` && lastName != `rodriguez`) {
       return alert('informacion incorrecta');

@@ -1,10 +1,22 @@
+/*
+The code uses an HTML template to generate dynamic content for a travel offers section. The content is organized in a card structure (div with box class) containing information about each offer, including:
+
+A representative image of the offer
+A title with the name of the destination city
+A discount percentage (DTO)
+A price (COP300,000)
+A link to an offer form page (data-url=“/html/form_offer.html”)
+
+Translated with DeepL.com (free version)
+
+The content is organized in a structure of sections (div with center class background-cover) that contain several offer cards each. Each section has an image background and contains several offer cards.
+
+
+*/
+
+
+
 document.getElementById("ofertas_IMG").innerHTML = `
-
-
-
-
-
-
 <div class="centro background-cover" >
           <div class="caja" data-url="/html/form_offer.html" >
             <div class="info">

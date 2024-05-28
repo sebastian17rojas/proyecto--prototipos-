@@ -1,3 +1,7 @@
+/*
+in this part the information and images are organized, styling and organizing the cards in an appealing way.
+*/
+
 .centro {
     display: flex;
     flex-wrap: wrap;
@@ -33,6 +37,7 @@
     transition: 0.3s;
   }
   
+  /*this is the basic flight information zone*/
   .info {
     position: absolute;
     top: 50%;

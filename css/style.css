@@ -1,3 +1,5 @@
+/*in this part of the code everything in general of the body of the page is styled.*/
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -40,6 +42,8 @@
 #login {
   display: inline-block;
 }
+
+/*in this part of the code the login button of the navbar is styled*/
 
 #login .a {
   display: block;
