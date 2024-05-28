@@ -60,8 +60,10 @@ document.addEventListener('DOMContentLoaded', (event) => {
     const lastName = document.getElementById('last_name').value;
   
     if (reservationCode === "1234" && lastName === "rodriguez") {
-      window.location.href = "/html/page.html"; // reemplaza con la URL de la página que deseas redirigir
+      window.location.href = "/html/fly_details.html"; // reemplaza con la URL de la página que deseas redirigir
       return false; // para evitar que se envíe el formulario
     }
     return true; // para permitir que se envíe el formulario si no se cumple la condición
   }
+
+  

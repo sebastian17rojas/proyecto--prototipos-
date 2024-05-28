@@ -34,6 +34,7 @@
     width: 400px;
     border-radius:5%;
     background-size: cover;
+    cursor: pointer;
 }
 #box_state{
     background-image: url(https://www.oneair.es/wp-content/uploads/2022/06/senaleros-en-aeropuertos-cuales-son-sus-funciones.jpg);
@@ -45,6 +46,7 @@
 }
 
 .text_container {
+    
 position: absolute;
 opacity: 0;
 width: 100%;
