@@ -8,8 +8,9 @@ body {
 .container {
     width: 80%;
     margin: 20px auto;
-    background-color: #fff;
+    background-color: #ffffff83;
     padding: 20px;
+    
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
@@ -28,6 +29,7 @@ h1 {
 .fly_image {
     height: 250px;
     width: 50%; 
+    box-shadow:50px 2rem 5rem#000000;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdKAzd4VkU8CnqGtP_LZd3i5B46agKAh9_0ApMqMuKZQ&s);
     background-size: cover;
     border-radius: 8px; 
@@ -40,12 +42,20 @@ h1 {
     margin-top: 20px;
 }
 
+.fly_info {
+    text-align: end;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
 .fly_info, .booking_info {
     flex: 1; 
+}
 
 .fly_info p {
     margin: 10px 0;
-    color: #555;
+    color: #161616;
 }
 
 .booking_info {
@@ -66,4 +76,8 @@ h1 {
 
 .book_button:hover {
     background-color: #0056b3;
+}
+
+body {
+    background-image: url(/IMG/R.jpeg);
 }
