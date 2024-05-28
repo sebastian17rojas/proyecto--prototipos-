@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 #large_box{
     position: relative;
@@ -11,12 +11,15 @@
     justify-content: center;
     height: 700px;
     width: 100%;
+
+    
 }
 .box{
     position: relative;
     overflow: hidden;
     box-shadow: 0 1rem 4rem rgba(0,0,0,.5);
     z-index: 0;
+    margin: 5%;
 }
 
 .box:hover > .text_container{
@@ -24,7 +27,6 @@
     transform: translate(-110%,-50%) scale(1.2);    
 }
 #box_state,
-#box_gestion,
 #box_chekin
 {
     margin-top: 10%;
@@ -37,9 +39,6 @@
     background-image: url(https://www.oneair.es/wp-content/uploads/2022/06/senaleros-en-aeropuertos-cuales-son-sus-funciones.jpg);
 }   
 
-#box_gestion{
-    background-image: url(/IMG/048_712480.jpg);
-}
 #box_chekin{
     background-image: url(/IMG/check-in-online.jpg);
     
@@ -50,23 +49,15 @@ position: absolute;
 opacity: 0;
 width: 100%;
 text-align: center;
-
+display: flex;
 background-color: rgba(0,0,0,.5);
 padding: 2rem 1rem;
 color: #fff;
 margin-top: 50%;
-margin-left : 100%;
+margin-left : 110%;
 transform: translate(-50%, -50%);
-display: flex;
 justify-content: center;
 align-items: center;
+
 }
 
-.text_container h1,
-.text_container h2 {
-    padding: 3%;
-}
-
-h2 {
-    margin-left: 22%;
-}
