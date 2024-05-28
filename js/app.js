@@ -14,7 +14,6 @@
 
     <nav class="nav">
         <ul class="ul">
-            <li class="li"><a href="page.html" class="a">Metodos de pago</a></li>
             <li class="li"><a href="ofertas.html" class="a">Ofertas y destinos</a></li>
             <li class="li"><a href="reserva-vuelo.html" class="a">Reservar vuelos</a></li>
             <li class="li"><a href="help.html" class="a">Ayuda</a></li>
